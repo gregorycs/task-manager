@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .td-btn-action {
+    white-space: nowrap;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #272727e6;
+  color: white !important;
+}
+
+.nav-item:hover {
+  background-color: #975b8a; 
+}
+
+.btn-new-task {
+  background-color: #975b8a;
+}
+
+.btn-action {
+  background-color: #3d6462 !important;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.h3-description-delete {
+  color: rgb(199, 57, 57);
+}
+
+.text-area-privacity {
+  height: 309px;
+}
